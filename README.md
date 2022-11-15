@@ -44,3 +44,20 @@ CNAME - canonical name. AAAA - iPv 6 NS - DNS name server
 SSL turvaeesmärgil krüpteerib võrguliiklust et takistada teistel võrkudel privaatsetele andmetele ligipääsu. Samuti aitab see kindlaks teha, et sait millelt infot saad on tõene ning kuulub saitile millele see peaks kuuluma. 
 
 Ipv4 koosneb 4 numbrist, eraldatud punktidega. Iga number on 8 biti, väärtusega 0-255. 
+
+# Peatükk 3
+
+IPv4 on 32 bitine aadress. IPv4 võib olla eri protokolli või näiteks sisemise eravõrgu aaddress, või address mida kasutatakse testimiseks või dokumenteerimiseks. Iga IPv4 addressi numbritest tähistab 1 oktetti. Address on punktidega eraldatud ainult et oleks inimestel lihtsam lugeda. 
+
+IPv4 aadresse on maailmas üle miljardi. Võrk millel on 22 biti võrgu osa ning 10 biti hosti osa on /22 võrk. Igal serveril/hostil peab olema eraldiseisev IP aadress ning IPv4 addresse on maailmas vähem kui inimesi. 
+IP address ei kuulu mitte masinale/arvutile, vaid liidesele, nt etherneti või loopback liidesele. 
+Loopback liidese IP aaddress on peaaegu alati 127.0.0.1 hosti nimega localhost. 
+
+Ruuter ühendab 2 erinevat IP võrku, käitudes kui värav. Igale majapidamisele on eraldatud 1 avalik IP aadress, mis jaotab isiklikud IP aadressid seadmetele mis võrguga ühendavad. 
+
+Privaatseid IP aadresse tõlgendatakse avalikeks kasutades NAT - network address translation. Privaatne  IP tähendab, et seda saab kasutada ainult kohalikus võrgus. 
+
+IP aadressite nappuse probleemi lahendab IPv6, mille aadress on märgatavalt pigem kui IPv4 - 16 oktetti. 
+
+#Peatükk 4
+
